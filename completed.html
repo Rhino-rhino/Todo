@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./todo.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Nunito:wght@200;300;400;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <title>todo</title>
+  </head>
+  <body>
+    <div class="container">
+      <div class="todo">#todo</div>
+
+      <nav>
+        <a href="./todo.html">All</a>
+        <a href="./active.html">Active</a>
+        <a href="./completed.html">Completed</a>
+      </nav>
+
+        <form >
+            <input type="text" placeholder="add details" value="" class="inputTask"/>
+            <button type="submit" class="addBtn">Add</button>
+          </form>
+
+           <div class="checks">
+            <div>
+                <input type="checkbox">
+             <label>Task done</label>
+             <span class="delete">&cross;</span>
+            </div>
+            <div> 
+                <input type="checkbox">
+             <label>Task done</label>
+             <span class="delete">&cross;</span>
+            </div>
+            <div>
+                <input type="checkbox">
+             <label>Task done</label>
+             <span class="delete">&cross;</span>
+            </div>
+        
+        </div>
+
+      
+    <script src="./todo.js"></script>
+  </body>
+</html>

@@ -1,0 +1,108 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Nunito", sans-serif;
+  margin-top: 50px;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  margin: 0px auto;
+  max-width: 500px;
+}
+
+.todo {
+  font-size: 25px;
+  font-weight: bolder;
+  text-align: center;
+}
+
+nav {
+  display: flex;
+  justify-content: space-around;
+  font-size: 17px;
+  border-bottom: 2px solid grey;
+  margin-top: 30px;
+}
+
+nav a {
+  color: black;
+  padding-bottom: 7px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+nav a:hover {
+  border-bottom: 2px solid #4280ed;
+}
+
+form {
+  display: flex;
+  justify-content: center;
+  margin: 20px 0;
+}
+
+input[type="text"] {
+  width: 470px;
+  height: 60px;
+  border-radius: 10px;
+  border: 1px solid rgba(128, 128, 128, 0.877);
+  margin-right: 10px;
+  padding: 10px 15px;
+  font-size: 18px;
+}
+
+/*selecting all children*/
+
+.checks > div {
+  margin: 10px 0;
+  display: flex;
+  align-items: center;
+}
+
+.checks > div > label {
+  margin-left: 5px;
+}
+
+.delete {
+  margin-left: auto;
+}
+
+button {
+  background-color: #4280ed;
+  color: white;
+  border: none;
+  border-radius: 10px;
+  width: 90px;
+  height: 60px;
+  font-size: 18px;
+  font-weight: 20px;
+}
+
+.task {
+  display: flex;
+  /* justify- content: space-between; */
+  padding: 0;
+  margin: 0rem 25rem;
+}
+
+.lI li {
+  margin-top: 30px;
+}
+
+.lis li {
+  margin-top: 30px;
+}
+
+.uL li {
+  display: flex;
+  justify-content: center;
+  margin-right: 25rem;
+  margin-top: 30px;
+  padding: 0;
+}
